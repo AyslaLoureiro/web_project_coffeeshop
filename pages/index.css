@@ -65,7 +65,7 @@
   line-height: 72px;
   letter-spacing: 1px;
   list-style-type: none;
-  max-width: 729px;
+  max-width: 709px;
 }
 .header__span-accent {
   font-family: "Noto Serif";
@@ -75,9 +75,10 @@
   line-height: 72px;
   color: #2f80ed;
   list-style-type: none;
+  display: block;
 }
 
-.headeheader__wrapper-texts {
+.header__wrapper-texts {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -89,7 +90,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
-  margin-top: auto 0;
+  margin-top: 0;
   margin-left: 80px;
   display: flex;
   position: relative;
