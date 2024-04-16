@@ -10,9 +10,6 @@
   max-height: 800px;
   min-height: 720px;
   background-color: #fff;
-  background-image: url(backgroun_header.svg);
-  background-size: cover;
-  background-position: center;
   display: flex;
   flex-direction: column;
   position: relative;
