@@ -10,9 +10,14 @@
   max-height: 800px;
   min-height: 720px;
   background-color: #fff;
+  background-image: url("../images/background_header.svg");
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   position: relative;
+  height: 100vh;
+  box-sizing: border-box;
 }
 .nav {
   margin-top: 30px;
@@ -28,7 +33,7 @@
   width: 105px;
 }
 .nav__links {
-  font-family: "Iter";
+  font-family: "Inter";
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -37,6 +42,7 @@
   list-style-type: none;
   padding: 0;
   column-gap: 20px;
+  text-decoration: none;
 }
 .header__image {
   top: 124px;
@@ -45,9 +51,7 @@
   height: 568px;
   position: absolute;
 }
-
 .header__title {
-  max-width: 709px;
   margin-top: 183px;
   margin-left: 80px;
   margin-bottom: 28px;
@@ -56,6 +60,12 @@
   flex-direction: column;
   list-style-type: none;
   padding: 0;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  list-style-type: none;
+  max-width: 729px;
 }
 .header__span-accent {
   font-family: "Noto Serif";
@@ -66,17 +76,16 @@
   color: #2f80ed;
   list-style-type: none;
 }
-.header__title {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 58px;
-  line-height: 72px;
-  letter-spacing: 1px;
-  list-style-type: none;
+
+.headeheader__wrapper-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
+
 .header__description {
-  font-family: "Noto Serif", Times New Roman, sans-serif;
+  font-family: "Noto Serif", " Times New Roman", sans-serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
@@ -97,8 +106,70 @@
   margin-right: 80px;
   margin-top: auto;
   justify-content: space-between;
-  box-sizing: border-box;
-}
-.header__adress {
+  z-index: 1;
   align-items: flex-end;
+}
+.header__address {
+  margin-bottom: 0;
+}
+.content {
+  background-color: #0a2750;
+  background-image: url("../images/background_recipes.svg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.recipes {
+  position: relative;
+  padding: 0;
+}
+.recipe__title {
+  max-width: 580px;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-bottom: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  position: relative;
+}
+.recipe__subtitle {
+  max-width: 438px;
+  margin-bottom: 80px;
+  margin-left: 80px;
+  margin-top: 0;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.recipe__videos {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 215px;
+}
+.recipe__video-caption {
+  margin-top: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.recipe__iframe {
+  height: 273px;
+  width: 480px;
+}
+.recipe__content-video-captions {
+  display: flex;
+  justify-content: space-between;
 }
