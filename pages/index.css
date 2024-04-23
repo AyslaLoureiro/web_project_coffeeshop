@@ -186,7 +186,9 @@
 }
 .reservation__title {
   margin-top: 100px;
-  margin-bottom: 80px;
+  margin-bottom: auto;
+  margin-left: 0;
+  margin-right: 0;
   display: flex;
   font-family: Inter;
   font-style: normal;
@@ -198,13 +200,12 @@
 .form {
   display: flex;
   justify-content: center;
+  max-width: 385px;
+  flex-direction: column;
 }
 .reservation__form {
-  display: flex;
-  max-width: 385px;
-  margin-top: auto;
+  margin-top: 80px;
   margin-bottom: 120px;
-  flex-direction: column;
   padding: 0;
   margin-left: 0;
   margin-right: 0;
